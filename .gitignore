@@ -8,6 +8,8 @@
 *.so
 *.dylib
 
+
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -19,3 +21,9 @@
 
 # Go workspace file
 go.work
+
+#Idea
+/.idea/
+*.iws
+*.iml
+*.ipr
