@@ -7,7 +7,7 @@ GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
 
 .PHONY: all dep lint vet test test-coverage build clean
 
-all: build
+all: lint vet test build
 
 dep: ## Get the dependencies
 	@go mod download
