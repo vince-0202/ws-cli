@@ -60,6 +60,7 @@ func init() {
 	clientApp.AddCommand(reconnection)
 }
 
+// Register register a children grumble.App to root grumble.App
 func Register(root *grumble.App) {
 	root.AddCommand(clientCmd)
 	clientApp.OnClose(func() error {

@@ -46,7 +46,7 @@ func init() {
 		a.Println(" \\ V  V /\\__ \\ \\__ \\  __/ |   \\ V /  __/ |   ")
 		a.Println("  \\_/\\_/ |___/ |___/\\___|_|    \\_/ \\___|_|   ")
 		a.Println(" =======================================================  ")
-		a.Println("  websocket server : ", wsServer.Url())
+		a.Println("  websocket server : ", wsServer.URL())
 		a.Println(" =======================================================  ")
 		a.Println("                                             ")
 	})
@@ -57,6 +57,7 @@ func init() {
 
 }
 
+// Register register a children grumble.App to root grumble.App
 func Register(root *grumble.App) {
 	root.AddCommand(serverCmd)
 	serverApp.OnClose(func() error {

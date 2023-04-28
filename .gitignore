@@ -27,3 +27,5 @@ go.work
 *.iws
 *.iml
 *.ipr
+
+/build/

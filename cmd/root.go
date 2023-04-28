@@ -6,6 +6,7 @@ import (
 	"github.com/vince-0202/ws-cli/cmd/server"
 )
 
+// Root grumble.App for ws-cli
 var Root = grumble.New(&grumble.Config{
 	Name:        "websocket",
 	Description: "websocket testing tools",
