@@ -19,10 +19,8 @@ jobs:
 
       - name: Lint Go Code
         run: |
-          echo $(go env GOPATH)
           export PATH=$PATH:$(go env GOPATH)/bin
-          go install -u golang.org/x/lint/golint 
-          golint version
+          go install golang.org/x/lint/golint@latest
           make lint
   test:
     name: Test
