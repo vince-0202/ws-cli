@@ -7,7 +7,7 @@ import (
 )
 
 // Version ws-cli version
-const Version = "v0.0.0"
+const Version = "v0.1.0"
 
 // Root grumble.App for ws-cli
 var Root = grumble.New(&grumble.Config{

@@ -6,7 +6,7 @@
 
 交互式命令行使用[grumble](https://github.com/desertbit/grumble)实现。 目前功能较为简单，后续将会持续补充和完善相关功能和能力。
 ## 如何使用
-[快速开始](/Users/wangshijie/workspace/go/vince-0202/ws-cli/docs/quickStart/source.md)
+[快速开始](/docs/quickStart/source.md)
 
 ## License
-[License](/Users/wangshijie/workspace/go/vince-0202/ws-cli/LICENSE)
+[License](/LICENSE)
