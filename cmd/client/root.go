@@ -2,7 +2,7 @@ package client
 
 import (
 	"github.com/desertbit/grumble"
-	"github.com/vince-0202/ws-cli/websocket"
+	"github.com/vince-0202/ws-cli/internal/websocket"
 )
 
 var (
@@ -11,8 +11,8 @@ var (
 
 var clientCmd = &grumble.Command{
 	Name:    "client",
-	Aliases: []string{"c"},
-	Help:    "websocket client",
+	Aliases: []string{"ct"},
+	Help:    "websocket client testing tools",
 	Args: func(a *grumble.Args) {
 		a.String("path", "server path")
 	},

@@ -6,7 +6,7 @@ import (
 
 var send = &grumble.Command{
 	Name:    "send",
-	Aliases: []string{"s"},
+	Aliases: []string{"sm", "s"},
 	Help:    "send a message to the websocket server",
 	Args: func(a *grumble.Args) {
 		a.String("msg", "msg")
