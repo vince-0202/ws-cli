@@ -1,34 +1,34 @@
-# How to use
+# WS-CLI使用手册
 [English](https://github.com/vince-0202/ws-cli/blob/main/docs/quickStart/source.md) | [Chinese](https://github.com/vince-0202/ws-cli/blob/main/docs/chinese/quick-start.md)
-## Install
+## 安装
 ```shell
 go install github.com/vince-0202/ws-cli@v0.1.0
 ````
-Download the binary package and run it locally. When you see the startup screen, the program runs successfully.
+下载二进制包并在本地运行，看见启动画面表示程序运行成功。
 ![](https://github.com/vince-0202/ws-cli/blob/main/docs/quickStart/images/allCommands.png)
-WS-CLI includes all kinds of websocket testing tools.
-## running websocket server
-Enter an address to quickly start a websocket server locally.
+包括各类websocket测试工具。
+## 开启一个websocket服务器
+输入一个地址在本地快速启动一个websocket服务器
 ```shell
 server [path]
 ```
 ![](https://github.com/vince-0202/ws-cli/blob/main/docs/quickStart/images/startWsServer.png)
 
-## running websocket client
-Enter a websocket server address to quickly start a websocket client and connect to the destination server.
+## 开启一个websocket客户端
+输入一个websocket服务端地址，快速启动一个websocket客户端并连接到目的服务器。
 ```shell
 client [server path]
 ```
 ![](https://github.com/vince-0202/ws-cli/blob/main/docs/quickStart/images/startWsClient.png)
-Connect to the websocket server program which we started earlier.
-## send a message to client
-send a message to client
+连接到前面启动到websocket服务端程序
+## 向客户端发送一条消息
+向客户端发送一条消息
 ```shell
 send 'hello ws-cli'
 ```
-client receive the message.
+客户端接收消息
 ![](https://github.com/vince-0202/ws-cli/blob/main/docs/quickStart/images/clientReceivedHello.png)
-## send a message to server
+## 向服务端发送一条消息
 ```shell
 send 'hello vince'
 ```
